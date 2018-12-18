@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="str_get_serial_num">Get SN</string>
+    <string name="str_set_serial_num">Set SN</string>
+    <string name="str_set_seal_status">Set seal status</string>
+    <string name="str_get_seal_status">Get seal status</string>
+    <string name="str_get_seal_volt">Get volt</string>
+    <string name="str_get_seal_bat_percentage">Get battery percentage</string>
+    <string name="str_del_finger_id">Delete fingerID</string>
+    <string name="title_activity_wsn">WsnActivity</string>
+</resources>
