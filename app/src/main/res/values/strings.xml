@@ -8,4 +8,5 @@
     <string name="str_get_seal_bat_percentage">Get battery percentage</string>
     <string name="str_del_finger_id">Delete fingerID</string>
     <string name="title_activity_wsn">WsnActivity</string>
+    <string name="title_activity_finger">title_activity_finger</string>
 </resources>

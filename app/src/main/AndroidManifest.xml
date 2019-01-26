@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
 
 
     <application
@@ -18,10 +20,37 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--
+        <receiver android:name="com.example.hefang.receiver.SmartsealBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.seal.press" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.seal.release" />
+            </intent-filter>
+        </receiver>
+        -->
+        <activity android:name=".Finger"
+            android:label="@string/title_activity_finger">
+            <intent-filter>
+                <action android:name="com.example.hefang.myapplication" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!--
+        <activity
+            android:name="com.android.settings.SettingsActivity"
+            android:label="@string/title_activity_finger"
+            android:exported="true">
+        </activity>
+-->
+
     </application>
+
+
 
 </manifest>
